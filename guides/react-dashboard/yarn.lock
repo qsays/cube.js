@@ -6145,9 +6145,10 @@ gatsby-remark-responsive-iframe@^2.2.20:
     lodash "^4.17.15"
     unist-util-visit "^1.4.1"
 
-gatsby-remark-video@keydunov/gatsby-remark-video:
-  version "1.2.4"
-  resolved "https://codeload.github.com/keydunov/gatsby-remark-video/tar.gz/f99c4302800fe8ebc732c23c75ba25cb453b68fa"
+gatsby-remark-video@1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-video/-/gatsby-remark-video-1.2.5.tgz#c2dd04673d37f70b539688d415ed6fd40e249ff2"
+  integrity sha512-pEEEVhyfJ2w8fIWJRmGHUz1T0yu9XhhnF8UpSebghpPMKS5Y/dPRWWrd7ukEJk9TQOZ4NhPy4UMeLVYFdE/kuA==
   dependencies:
     unist-util-visit "^1.4.0"
 
