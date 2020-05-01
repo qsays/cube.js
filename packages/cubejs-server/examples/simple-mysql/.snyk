@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@cubejs-backend/jdbc-driver > jdbc > lodash':
+        patched: '2020-05-01T01:07:33.467Z'
+    - '@cubejs-backend/jdbc-driver > jdbc > async > lodash':
+        patched: '2020-05-01T01:07:33.467Z'
+    - '@cubejs-backend/jdbc-driver > jdbc > java > async > lodash':
+        patched: '2020-05-01T01:07:33.467Z'
+    - '@cubejs-backend/server > @cubejs-backend/server-core > @cubejs-backend/schema-compiler > babel-types > lodash':
+        patched: '2020-05-01T01:07:33.467Z'
+    - '@cubejs-backend/server > @cubejs-backend/server-core > @cubejs-backend/schema-compiler > babel-generator > lodash':
+        patched: '2020-05-01T01:07:33.467Z'
+    - '@cubejs-backend/server > @cubejs-backend/server-core > @cubejs-backend/schema-compiler > babel-traverse > lodash':
+        patched: '2020-05-01T01:07:33.467Z'
+    - '@cubejs-backend/server > @cubejs-backend/server-core > @cubejs-backend/schema-compiler > babel-generator > babel-types > lodash':
+        patched: '2020-05-01T01:07:33.467Z'
+    - '@cubejs-backend/server > @cubejs-backend/server-core > @cubejs-backend/schema-compiler > babel-traverse > babel-types > lodash':
+        patched: '2020-05-01T01:07:33.467Z'
+    - '@cubejs-backend/jdbc-driver > jdbc > java > lodash':
+        patched: '2020-05-01T01:07:33.467Z'
