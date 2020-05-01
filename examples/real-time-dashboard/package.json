@@ -5,13 +5,17 @@
   "scripts": {
     "dev": "./node_modules/.bin/cubejs-dev-server",
     "build-front": "cd dashboard-app && yarn build",
-    "start": "node index.js"
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
     "@cubejs-backend/mongobi-driver": "^0.13.0",
     "@cubejs-backend/server": "^0.13.11",
     "moment": "^2.24.0",
     "mongodb": "^3.3.3",
-    "serve-static": "^1.14.1"
-  }
+    "serve-static": "^1.14.1",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
