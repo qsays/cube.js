@@ -4,11 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "./node_modules/.bin/cubejs-dev-server",
-    "start": "node index.js"
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@cubejs-backend/bigquery-driver": "^0.10.35",
     "@cubejs-backend/mysql-driver": "^0.10.35",
-    "@cubejs-backend/server": "^0.10.36"
-  }
+    "@cubejs-backend/server": "^0.10.36",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
