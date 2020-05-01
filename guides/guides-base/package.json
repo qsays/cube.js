@@ -4,7 +4,9 @@
   "description": "",
   "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -15,12 +17,14 @@
     "react-share": "^3.0.1",
     "styled-media-query": "^2.1.2",
     "styled-normalize": "^8.0.6",
-    "url-join": "^4.0.1"
+    "url-join": "^4.0.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "styled-components": "^4.4.0"
   },
   "peerDependencies": {
     "styled-components": ">=4"
-  }
+  },
+  "snyk": true
 }
