@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "author": "Statsbot, Inc.",
   "dependencies": {
-    "gatsby": "^2.15.28",
+    "gatsby": "^2.23.20",
     "gatsby-image": "^2.2.23",
     "gatsby-plugin-catch-links": "^2.1.12",
     "gatsby-plugin-google-analytics": "^2.1.19",
@@ -29,7 +29,7 @@
     "guides-base": "file:../guides-base",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
-    "prismjs": "^1.16.0",
+    "prismjs": "^1.21.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "react-helmet": "^5.2.1",
