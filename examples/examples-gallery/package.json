@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@babel/standalone": "^7.1.0",
-    "bizcharts": "^3.2.4",
+    "bizcharts": "^4.0.15",
     "react-source-render": "^1.1.3",
     "sql-formatter": "^2.3.1"
   }
