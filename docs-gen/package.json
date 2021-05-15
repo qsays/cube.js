@@ -11,7 +11,7 @@
     "@babel/types": "^7.4.0",
     "fs-extra": "^8.1.0",
     "inflection": "^1.12.0",
-    "jsdoc": "^3.6.3"
+    "jsdoc": "^3.6.7"
   },
   "scripts": {
     "generate": "jsdoc -t template ../packages/cubejs-client-core/src/*.js -d ../docs/Cube.js-Frontend/@cubejs-client-core.md"
