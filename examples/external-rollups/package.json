@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@cubejs-backend/bigquery-driver": "^0.10.35",
+    "@cubejs-backend/bigquery-driver": "^0.26.30",
     "@cubejs-backend/mysql-driver": "^0.10.35",
     "@cubejs-backend/server": "^0.10.36"
   }
