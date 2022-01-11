@@ -882,15 +882,14 @@
     ramda "^0.25.0"
     whatwg-fetch "^3.0.0"
 
-"@cubejs-client/react@^0.2.6":
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/@cubejs-client/react/-/react-0.2.6.tgz#e40ddf36b49d17a6357088f2dbb47fa81be1e16f"
-  integrity sha512-L3PyHOHDxISC04xUHrmEGa158F/wEuojGyz1nzx03JXSWtGrMWawyXWZZQo8uhynlOlbVHpAvJe1HcS8gLnzSg==
+"@cubejs-client/react@^0.18.0":
+  version "0.18.18"
+  resolved "https://registry.yarnpkg.com/@cubejs-client/react/-/react-0.18.18.tgz#b35d782a2d96f917026b1923075659668deff8b1"
+  integrity sha512-grNsP8TCcTleUDRxAuFuxtPqmIJTMM6Y3/OvIdEliLZ4uNCIb3OGQZJ4A5GY/qKmDdGY8aTSBgSJ/QzRhTo2vg==
   dependencies:
     "@babel/runtime" "^7.1.2"
-    prop-types "^15.6.2"
-    ramda "^0.25.0"
-    react "^16.5.2"
+    core-js "^2.5.3"
+    ramda "^0.27.0"
 
 "@emotion/babel-utils@^0.6.4":
   version "0.6.10"
@@ -8464,6 +8463,11 @@ ramda@^0.25.0:
   resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.25.0.tgz#8fdf68231cffa90bc2f9460390a0cb74a29b29a9"
   integrity sha512-GXpfrYVPwx3K7RQ6aYT8KPS8XViSXUVJT1ONhoKPE9VAleW42YE+U+8VEyGWt41EnEQW7gwecYJriTI0pKoecQ==
 
+ramda@^0.27.0:
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.27.2.tgz#84463226f7f36dc33592f6f4ed6374c48306c3f1"
+  integrity sha512-SbiLPU40JuJniHexQSAgad32hfwd+DRUdwF2PlVuI5RZD0/vahUco7R8vD86J/tcEKKF9vZrUVwgtmGCqlCKyA==
+
 randomatic@^3.0.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/randomatic/-/randomatic-3.1.1.tgz#b776efc59375984e36c537b2f51a1f0aff0da1ed"
@@ -8741,7 +8745,7 @@ react-transition-group@^2.2.1, react-transition-group@^2.5.0:
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-react@^16.5.2, react@^16.8.1:
+react@^16.8.1:
   version "16.8.1"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.1.tgz#ae11831f6cb2a05d58603a976afc8a558e852c4a"
   integrity sha512-wLw5CFGPdo7p/AgteFz7GblI2JPOos0+biSoxf1FPsGxWQZdN/pj6oToJs1crn61DL3Ln7mN86uZ4j74p31ELQ==
