@@ -821,10 +821,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@cubejs-backend/api-gateway@^0.13.9":
-  version "0.13.9"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/api-gateway/-/api-gateway-0.13.9.tgz#5e0e2f4ebcfe8cd9065b5a989d9542d6e4b953c1"
-  integrity sha512-3JBQs8fSqvHCM6QgwMXxVumj2nMEEv09FFjGZ3FJ39gX2Br3o5ZXxa8ehJPYDBvlObydf3Rz5Y33MOjscqJQlw==
+"@cubejs-backend/api-gateway@^0.17.1":
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/api-gateway/-/api-gateway-0.17.1.tgz#ac8fdc3928863a2a1713b533d649fb3dede1c2b8"
+  integrity sha512-8iP/vJV+tkB+7YqZfyeG17PbbSEDa89oorcNYm9Fd/HcOoemYD3EVzV/JWV0LHrmc9f3kVcYno6U10Ledd4P0Q==
   dependencies:
     "@hapi/joi" "^14.0.6"
     chrono-node "^1.3.11"
@@ -834,18 +834,18 @@
     ramda "^0.25.0"
     uuid "^3.3.3"
 
-"@cubejs-backend/query-orchestrator@^0.13.9":
-  version "0.13.9"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.13.9.tgz#16bef231c1d74d451b0ae96c406708fdb321dd89"
-  integrity sha512-1Wbbnd0Q/cGclV9moJ+wLnTTmWiwJn4FZb6OrkLJx9GB8mTtPGW/l5N4O8y1ir93TLXbadoQ3hc3ED3WguV2Tw==
+"@cubejs-backend/query-orchestrator@^0.17.5":
+  version "0.17.10"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.17.10.tgz#44604f30acee7c65a4dde92af662aad605d195af"
+  integrity sha512-hmNWfaFapKZPS4ePIYvjxMelUKd2KIPdLh0vikcdhVCj++M9+0fyFnEUvpoPdYjc8jciksVEfA7ehId0C6xE3Q==
   dependencies:
     ramda "^0.24.1"
     redis "^2.8.0"
 
-"@cubejs-backend/schema-compiler@^0.13.7":
-  version "0.13.7"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/schema-compiler/-/schema-compiler-0.13.7.tgz#0d01ae455fc9ae97e27a7e60f21f7bdcfc04a1be"
-  integrity sha512-8AFO6JLoLKmv9KjDVPvqokIvHkVR6j4CB3TRyC2ZdO9p8/F6OfGtUujRSjAR7WgO5qcQua10e/jzbiW0ocuirQ==
+"@cubejs-backend/schema-compiler@^0.17.3":
+  version "0.17.10"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/schema-compiler/-/schema-compiler-0.17.10.tgz#e128e2bee610ba2416d45053d8b37f52681af0c5"
+  integrity sha512-bDKcpLAS2mREtxwnOXhGpmF2PaUzXDIKhh5THBvK5TXClz4GwkxQ7+MVBxYzvGWcMIMqmTHlYYnGelfbwbFdhw==
   dependencies:
     "@babel/generator" "^7.4.0"
     "@babel/parser" "^7.4.2"
@@ -853,14 +853,23 @@
     "@babel/standalone" "^7.3.4"
     "@babel/traverse" "^7.4.0"
     "@babel/types" "^7.4.0"
-    "@hapi/joi" "^14.3.1"
+    "@hapi/joi" "^15.1.1"
     humps "^2.0.1"
     inflection "^1.12.0"
     moment-range "^4.0.1"
     moment-timezone "^0.5.13"
     node-dijkstra "^2.5.0"
-    ramda "^0.24.1"
     syntax-error "^1.3.0"
+
+"@hapi/address@2.x.x":
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
+  integrity sha512-QD1PhQk+s31P1ixsX0H0Suoupp3VMXzIVMSwobR3F3MSUO2YCV0B7xqLcUw/Bh8yuvd3LhpyqLQWTNcRmp6IdQ==
+
+"@hapi/bourne@1.x.x":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@hapi/bourne/-/bourne-1.3.2.tgz#0a7095adea067243ce3283e1b56b8a8f453b242a"
+  integrity sha512-1dVNHT76Uu5N3eJNTYcvxee+jzX4Z9lfciqRRHCU27ihbUcYi+iSc2iml5Ke1LXe1SyJCLA0+14Jh4tXJgOppA==
 
 "@hapi/hoek@6.x.x":
   version "6.2.4"
@@ -872,7 +881,7 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-8.2.1.tgz#924af04cbb22e17359c620d2a9c946e63f58eb77"
   integrity sha512-JPiBy+oSmsq3St7XlipfN5pNA6bDJ1kpa73PrK/zR29CVClDVqy04AanM/M/qx5bSF+I61DdCfAvRrujau+zRg==
 
-"@hapi/joi@^14.0.6", "@hapi/joi@^14.3.1":
+"@hapi/joi@^14.0.6":
   version "14.5.0"
   resolved "https://registry.yarnpkg.com/@hapi/joi/-/joi-14.5.0.tgz#197e06edbd90436150f7f02154a83d0a82753188"
   integrity sha512-q8oNlQWQpN14j6lMkaQqVdG8km+Ni32ZeuJ+sSOB+5a5VsIY6KVpPvdoMU/XKyAS7P7qP0TgM9fFGC2d8dB6hA==
@@ -881,6 +890,16 @@
     "@hapi/marker" "1.x.x"
     "@hapi/topo" "3.x.x"
     isemail "3.x.x"
+
+"@hapi/joi@^15.1.1":
+  version "15.1.1"
+  resolved "https://registry.yarnpkg.com/@hapi/joi/-/joi-15.1.1.tgz#c675b8a71296f02833f8d6d243b34c57b8ce19d7"
+  integrity sha512-entf8ZMOK8sc+8YfeOlM8pCfg3b5+WZIKBfUaaJT8UsjAAPjartzxIYm3TIbjvA4u+u++KbcXD38k682nVHDAQ==
+  dependencies:
+    "@hapi/address" "2.x.x"
+    "@hapi/bourne" "1.x.x"
+    "@hapi/hoek" "8.x.x"
+    "@hapi/topo" "3.x.x"
 
 "@hapi/marker@1.x.x":
   version "1.0.0"
@@ -4420,6 +4439,11 @@ ramda@^0.25.0:
   version "0.25.0"
   resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.25.0.tgz#8fdf68231cffa90bc2f9460390a0cb74a29b29a9"
   integrity sha512-GXpfrYVPwx3K7RQ6aYT8KPS8XViSXUVJT1ONhoKPE9VAleW42YE+U+8VEyGWt41EnEQW7gwecYJriTI0pKoecQ==
+
+ramda@^0.27.2:
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.27.2.tgz#84463226f7f36dc33592f6f4ed6374c48306c3f1"
+  integrity sha512-SbiLPU40JuJniHexQSAgad32hfwd+DRUdwF2PlVuI5RZD0/vahUco7R8vD86J/tcEKKF9vZrUVwgtmGCqlCKyA==
 
 range-parser@~1.2.0:
   version "1.2.0"
