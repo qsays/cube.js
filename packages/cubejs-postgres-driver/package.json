@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@cubejs-backend/query-orchestrator": "^0.17.5",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "pg": "^7.10.0"
   },
   "license": "Apache-2.0",
