@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@cubejs-backend/server": "^0.0.5",
-    "@cubejs-backend/postgres-driver": "^0.0.5"
+    "@cubejs-backend/postgres-driver": "^0.19.20"
   },
   "devDependencies": {
     "eslint": "^4.14.0",
