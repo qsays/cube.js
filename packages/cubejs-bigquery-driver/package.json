@@ -14,7 +14,7 @@
   "main": "driver/BigQueryDriver.js",
   "dependencies": {
     "@cubejs-backend/query-orchestrator": "^0.17.5",
-    "@google-cloud/bigquery": "^4.1.4",
+    "@google-cloud/bigquery": "^7.2.0",
     "ramda": "^0.26.1"
   },
   "license": "Apache-2.0",
