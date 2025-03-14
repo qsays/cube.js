@@ -10,7 +10,7 @@
   },
   "author": "Statsbot, Inc.",
   "dependencies": {
-    "@babel/runtime-corejs2": "^7.0.0",
+    "@babel/runtime-corejs2": "^7.26.10",
     "core-js": "^2.5.3",
     "ramda": "^0.25.0",
     "rollup-plugin-dts": "^1.1.8",
