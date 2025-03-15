@@ -23,7 +23,7 @@
     "test": "jest --testPathPattern test/*.test.js --runInBand"
   },
   "dependencies": {
-    "@babel/core": "^7.7.4",
+    "@babel/core": "^7.26.10",
     "@babel/generator": "^7.4.0",
     "@babel/parser": "^7.4.2",
     "@babel/preset-env": "^7.3.4",
