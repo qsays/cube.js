@@ -9,7 +9,7 @@
   "description": "React components for cube.js",
   "author": "Statsbot, Inc.",
   "dependencies": {
-    "@babel/runtime": "^7.1.2",
+    "@babel/runtime": "^7.26.10",
     "core-js": "^2.5.3",
     "ramda": "^0.25.0"
   },
